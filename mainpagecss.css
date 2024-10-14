@@ -1,0 +1,156 @@
+body {
+    font-family: 'Merriweather', serif;
+    color: #fffee6;
+    background-color:#041618;
+    background-size: auto;
+}
+
+
+hr {
+    color: #000000;
+    border-style: hidden;
+    border-width: 10px;
+}
+
+#navbar {
+    background-color: #741A19;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    filter: saturate(55%);
+    justify-content: space-between;
+    align-self: flex-start;
+    font-size: 80px;
+    color:#ffffff;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 128px ;
+}
+h1{
+    font-size: 80px;
+}
+#name{
+    /* background-color: #F1EDE1; */
+    display: flex;
+    size: 20px;
+    
+}
+
+#name a{
+    size: 100px;
+
+}
+
+.navbar{
+    margin-right: 10px;
+}
+
+a {
+    color: #8D8C8A;
+    font-size: 32px;
+
+}
+
+a:link {
+    color: #F1EDE1;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8D8C8A;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.img1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.secondary-navbar {
+    background-color: #741A19;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    filter: saturate(55%);
+    justify-content: space-between;
+    align-self: flex-start;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    height: 45px ;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+    text-align: center;
+    padding: 10px;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 600px;
+    color: #ffffff;
+}
+
+.review-card {
+    border-radius: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.review-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.review-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin: 10px;
+}
+
+.review-content {
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 15px;
+}
+
+.review-rating {
+    font-size: 1.2em;
+    color: gold;
+}
